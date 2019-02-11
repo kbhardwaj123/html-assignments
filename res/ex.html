@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>House of Keto</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            function posting() {
+                var x = document.forms["myform1"]["email"].value;
+                var obj = JSON.stringify({email: x});
+                var xhr = new XMLHttpRequest();
+                xhr.open("POST","http://172.25.55.8:3000/my_machau_api",true);
+                xhr.setRequestHeader("email","application/json");
+                xhr.send(x);
+                alert(this.responseText);
+            }
+        </script>
+        <link href="ex.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="parallax.min.js"></script>
+    </head>
+    <body>
+            <header>
+                <div class="head"><span>House of Keto<br></span><span>Ketogenic Lifestyle Blog</span></div>
+                    <div class="list">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>What is Keto</li>
+                        <li>Recepies</li>
+                        <li>Lifestyle</li>
+                        <li>Shop Meal Plans</li>
+                        <li>Contact</li>
+                    </ul>
+                    </div>
+                    <div class="menu">
+                        <img src="kisspng-drop-down-list-computer-icons-menu-button-arrow-5b00cd557524e2.0732217615267792214798.png" alt="" width="50" height="50">
+                    </div>
+                </div>
+                </header>
+        <div class="parallax" data-parallax="scroll" data-z-index="1" data-image-src="arch-bridge-asian-food-billiard-table-1098599.jpg"></div>
+        <div class="trans">
+                <span>Welcome to the<br> House of Keto</span><br>
+                <span>Get into a low carb lifestyle with an <br>easy-to-follow meal plan</span>
+                <br><br><br><br>
+                <a href="">Shop Plans</a>
+        </div>
+        <div class="container">
+            <div class="contains">
+            <div class="container1">
+            <div class="boxes1">
+                <img src="43105692_135353644110197_2596597023177052466_n.jpg" height="362" alt="">
+                <div><span class="green">Your new Keto lifestyle: Everything you need to know</span><br><br>
+                    Create a blog post subtitle that</div>
+            </div>
+            <div class="boxes1">
+                <img src="43322031_189115288632741_681123002512487872_n.jpg" height="362" alt="">
+                <div><span class="green">Spring greens and pecorino salad</span><br><br>
+                    Create a blog post subtitle that summaries your post in a few short, punchy sentences and </div>
+            </div>
+            <div class="boxes1">
+                <img src="43512739_364184990823488_7929395179613294722_n.jpg" height="362" alt="">
+                <div><span class="green">Classic mediterranean fish</span><br><br>Create a blog post subtitle that summaries your post in a few short, punchy sentences and </div>
+            </div>
+            <div class="boxes1">
+                <img src="43747090_252157912317520_3205426360740487358_n.jpg" height="362" alt="">
+                <div><span class="green">Good fat vs. bad fat</span><br><br>Create a blog post subtitle that summaries your post in a few short, punchy sentences and entices your audience to </div>
+            </div>
+            <div class="boxes1">
+                <img src="43985077_548151422312110_7053415653073986357_n.jpg" height="362" alt="">
+                <div><span class="green">A beginner’s guide to buying fish</span><br><br>Create a blog post subtitle that summaries your post in a few short, punchy sentences and </div>
+            </div>
+            </div>
+            <div class="container2">
+            <div class="boxes2">
+                <img src="abc.jpg" alt="">
+                <div><span class="green">Daniella
+                        Kats</span><br><br>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font</div>
+            </div>
+            <div class="boxes2">You can also find me on:<br>
+            <ul class="social">
+                <li><img src="fb.png" alt="" height="30" width="30"></li>
+                <li><img src="insta.png" alt="" height="30" width="30"></li>
+                <li><img src="twitter.png" alt="" height="30" width="30"></li>
+                <li><img src="in.png" alt="" height="30" width="30"></li>
+            </ul></div>
+            <div class="boxes2">
+                Subscribe to my News Letter<br><br>
+                <input type="text" name="" placeholder="   Enter your EMail">
+                <a class="sub" href="" >Subscribe Now </a>
+            </div>
+            </div>
+            </div>
+            <div class="container3">
+                Follow Me<br><span class="green">#HouseofKeto</span><br>
+                <div class="container4">
+                        <div class="parento"><img src="43105692_135353644110197_2596597023177052466_n.jpg" alt="" width="291" height="291">
+                        <div class="overlay">
+                            <img src="kisspng-heart-love-valentines-day-red-thanksgiving-love-5a8a37f4a653a9.0977706315190077326813.png" width="25" height="25" alt="">
+                            <img src="kisspng-computer-icons-icon-design-download-iconfinder-comment-png-download-high-quality-5ab12ecf4d1d59.7949476415215612953159.png" width="25" height="25" alt="">
+                        </div>
+                        </div>
+                        <div class="parento"><img src="43322031_189115288632741_681123002512487872_n.jpg" alt="" width="291" height="291">
+                            <div class="overlay">
+                                <img src="kisspng-heart-love-valentines-day-red-thanksgiving-love-5a8a37f4a653a9.0977706315190077326813.png" width="25" height="25" alt="">
+                                <img src="kisspng-computer-icons-icon-design-download-iconfinder-comment-png-download-high-quality-5ab12ecf4d1d59.7949476415215612953159.png" width="25" height="25" alt="">
+                            </div>
+                        </div>
+                        <div class="parento"><img src="43512739_364184990823488_7929395179613294722_n.jpg" alt="" width="291" height="291">
+                            <div class="overlay">
+                                <img src="kisspng-heart-love-valentines-day-red-thanksgiving-love-5a8a37f4a653a9.0977706315190077326813.png" width="25" height="25" alt="">
+                                <img src="kisspng-computer-icons-icon-design-download-iconfinder-comment-png-download-high-quality-5ab12ecf4d1d59.7949476415215612953159.png" width="25" height="25" alt="">
+                            </div>
+                        </div>
+                        <div class="parento"><img src="43747090_252157912317520_3205426360740487358_n.jpg" alt="" width="291" height="291">
+                            <div class="overlay">
+                                <img src="kisspng-heart-love-valentines-day-red-thanksgiving-love-5a8a37f4a653a9.0977706315190077326813.png" width="25" height="25" alt="">
+                                <img src="kisspng-computer-icons-icon-design-download-iconfinder-comment-png-download-high-quality-5ab12ecf4d1d59.7949476415215612953159.png" width="25" height="25" alt="">
+                            </div>
+                        </div>
+                        <div class="parento"><img src="43985077_548151422312110_7053415653073986357_n.jpg" alt="" width="291" height="291">
+                            <div class="overlay">
+                                <img src="kisspng-heart-love-valentines-day-red-thanksgiving-love-5a8a37f4a653a9.0977706315190077326813.png" width="25" height="25" alt="">
+                                <img src="kisspng-computer-icons-icon-design-download-iconfinder-comment-png-download-high-quality-5ab12ecf4d1d59.7949476415215612953159.png" width="25" height="25" alt="">
+                            </div>
+                        </div>
+                        <div class="parento"><img src="43985393_299987963943995_3343529512408752498_n.jpg" alt="" width="291" height="291">
+                            <div class="overlay">
+                                <img src="kisspng-heart-love-valentines-day-red-thanksgiving-love-5a8a37f4a653a9.0977706315190077326813.png" width="25" height="25" alt="">
+                                <img src="kisspng-computer-icons-icon-design-download-iconfinder-comment-png-download-high-quality-5ab12ecf4d1d59.7949476415215612953159.png" width="25" height="25" alt="">
+                            </div>
+                        </div>
+                        <div class="parento"><img src="44000249_795359090804866_2877436864243003381_n.jpg" alt="" width="291" height="291">
+                            <div class="overlay">
+                                <img src="kisspng-heart-love-valentines-day-red-thanksgiving-love-5a8a37f4a653a9.0977706315190077326813.png" width="25" height="25" alt="">
+                                <img src="kisspng-computer-icons-icon-design-download-iconfinder-comment-png-download-high-quality-5ab12ecf4d1d59.7949476415215612953159.png" width="25" height="25" alt="">
+                            </div>
+                        </div>
+                        <div class="parento"><img src="44213676_193039518290390_5367741999277631818_n.jpg" alt="" width="291" height="291">
+                            <div class="overlay">
+                                <img src="kisspng-heart-love-valentines-day-red-thanksgiving-love-5a8a37f4a653a9.0977706315190077326813.png" width="25" height="25" alt="">
+                                <img src="kisspng-computer-icons-icon-design-download-iconfinder-comment-png-download-high-quality-5ab12ecf4d1d59.7949476415215612953159.png" width="25" height="25" alt="">
+                            </div>
+                        </div>
+                        <div class="parento"><img src="44392036_865518747149017_1119041106885583998_n.jpg" alt="" width="291" height="291">
+                            <div class="overlay">
+                                <img src="kisspng-heart-love-valentines-day-red-thanksgiving-love-5a8a37f4a653a9.0977706315190077326813.png" width="25" height="25" alt="">
+                                <img src="kisspng-computer-icons-icon-design-download-iconfinder-comment-png-download-high-quality-5ab12ecf4d1d59.7949476415215612953159.png" width="25" height="25" alt="">
+                            </div>
+                        </div>
+            </div>
+            </div>
+        </div>
+        </div>
+        <div class="letter">
+            <span class="green">
+            Subscribe to my News Letter<br><br></span>
+            <div class="field">
+            <form name="myform1" action="" method="post" onsubmit="posting()"> 
+            <input type="text" name="email" placeholder="   Enter your EMail">
+            <input type="submit" class="sub" value="Subscribe Now" >
+            </form>
+            </div>
+        </div>
+        <footer class="foot">© 2023 by House of Keto. Proudly created with Wix.com</footer>
+    </body>
+</html>
